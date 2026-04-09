@@ -8,18 +8,18 @@ import { Button } from "@/components/ui/Button";
 const steps = [
   {
     icon: Download,
-    title: "Download",
-    desc: "Grab the latest release ZIP from GitHub Releases."
+    title: "Visit the store",
+    desc: "Open the Prodigy Origin listing on the Chrome Web Store."
   },
   {
     icon: Package,
-    title: "Unzip",
-    desc: "Extract the ZIP to any folder — Chrome loads unpacked extensions from disk."
+    title: "Add to Chrome",
+    desc: "Click Add to Chrome and confirm the install prompt."
   },
   {
     icon: MousePointer,
-    title: "Load unpacked",
-    desc: "Open chrome://extensions, enable Developer Mode, click Load unpacked, select the folder."
+    title: "Pin it",
+    desc: "Pin Prodigy Origin to your toolbar from the puzzle-piece menu."
   },
   {
     icon: PlayCircle,
@@ -71,11 +71,11 @@ export function InstallSteps() {
           <Button
             variant="primary"
             size="lg"
-            href="https://github.com/ProdigyPXP/ProdigyOrigin/releases/latest"
+            href="https://chrome.google.com/webstore/detail/mbjjannikkfihddnepoionimbedjnbib"
             external
           >
             <Download size={18} />
-            Download Latest Release
+            Install from Chrome Web Store
           </Button>
         </div>
       </div>

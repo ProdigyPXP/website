@@ -78,7 +78,12 @@ export function Navbar() {
               </a>
             )
           )}
-          <Button variant="primary" size="sm" href="#install">
+          <Button
+            variant="primary"
+            size="sm"
+            href="https://chrome.google.com/webstore/detail/mbjjannikkfihddnepoionimbedjnbib"
+            external
+          >
             Install Extension
           </Button>
         </div>
@@ -107,7 +112,13 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Button variant="primary" size="md" href="#install" className="mt-2">
+            <Button
+              variant="primary"
+              size="md"
+              href="https://chrome.google.com/webstore/detail/mbjjannikkfihddnepoionimbedjnbib"
+              external
+              className="mt-2"
+            >
               Install Extension
             </Button>
           </div>

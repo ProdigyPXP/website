@@ -62,7 +62,12 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Button variant="primary" size="lg" href="#install">
+          <Button
+            variant="primary"
+            size="lg"
+            href="https://chrome.google.com/webstore/detail/mbjjannikkfihddnepoionimbedjnbib"
+            external
+          >
             Install Extension
             <ArrowRight size={18} />
           </Button>
