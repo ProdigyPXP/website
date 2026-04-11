@@ -52,8 +52,7 @@ export function Hero() {
           className="text-[#a0a0a0] text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-10"
         >
           A free, open-source browser extension that injects a full mod menu
-          into Prodigy. Edit gold, XP, pets, battles, and more — all
-          client-side, no account changes.
+          into Prodigy. Edit gold, XP, pets, battles, and more.
         </motion.p>
 
         <motion.div
