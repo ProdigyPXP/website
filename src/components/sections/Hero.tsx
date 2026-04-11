@@ -4,9 +4,12 @@ import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, Code2 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { AnimatedText } from "@/components/ui/AnimatedText";
+import { BrowserIcon } from "@/components/ui/BrowserIcon";
+import { useBrowser } from "@/lib/useBrowser";
 
 export function Hero() {
   const reduce = useReducedMotion();
+  const { browser } = useBrowser();
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-16">
@@ -64,9 +67,10 @@ export function Hero() {
           <Button
             variant="primary"
             size="lg"
-            href="https://chrome.google.com/webstore/detail/mbjjannikkfihddnepoionimbedjnbib"
+            href="https://extension.prodigyorigin.com"
             external
           >
+            <BrowserIcon browser={browser} size={18} />
             Install Extension
             <ArrowRight size={18} />
           </Button>

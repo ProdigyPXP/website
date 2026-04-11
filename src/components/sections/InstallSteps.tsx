@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Download, Package, MousePointer, PlayCircle } from "lucide-react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
+import { useBrowser } from "@/lib/useBrowser";
 
 const steps = [
   {
@@ -29,6 +30,7 @@ const steps = [
 ];
 
 export function InstallSteps() {
+  const { storeLabel } = useBrowser();
   return (
     <section id="install" className="py-24 lg:py-32 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -71,11 +73,11 @@ export function InstallSteps() {
           <Button
             variant="primary"
             size="lg"
-            href="https://chrome.google.com/webstore/detail/mbjjannikkfihddnepoionimbedjnbib"
+            href="https://extension.prodigyorigin.com"
             external
           >
             <Download size={18} />
-            Install from Chrome Web Store
+            Install from {storeLabel}
           </Button>
         </div>
       </div>
