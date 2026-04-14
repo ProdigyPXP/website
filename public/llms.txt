@@ -1,0 +1,39 @@
+# Prodigy Origin
+
+> Free, open-source browser extension mod loader for Prodigy Math Game. Injects a full in-game mod menu — no jailbreak, no account risk, 100% client-side.
+
+## What it does
+
+Prodigy Origin is a browser extension that adds a toggleable mod menu to Prodigy Math Game (play.prodigygame.com). Players press Shift to open the menu and can enable mods across nine categories: player stats, battle mechanics, location/movement, pets, items, utility tools, and beta features.
+
+**Key capabilities:**
+- Player mods: set gold, XP, level, member stars, username, grade
+- Battle mods: instant kill PvE enemies, set battle hearts, fill energy, PvP health overrides
+- Location mods: WASD movement, click-to-teleport, teleport to any map or player's house
+- Pet mods: unlock all epics and mythical epics, uncap pet level, add any pet
+- Utility: save/load character locally, eval console, pause game
+- Beta features: edit pets, morph player, toggle invisibility, switch branches
+
+## Who it's for
+
+Players of Prodigy Math Game (a browser-based educational math RPG for kids) who want to experiment with game mechanics, test features, or explore the game without grinding. Primarily used by the ProdigyPXP modding community.
+
+## Key facts
+
+- Version: 4.1.0
+- License: MPL-2.0 (open source)
+- Price: Free
+- Supported browsers: Chrome, Edge, Brave, Opera, Firefox
+- Install: Chrome Web Store (https://extension.prodigyorigin.com)
+- Source code: https://github.com/ProdigyPXP/ProdigyOrigin
+- Community: Discord (https://dsc.gg/ProdigyPXP)
+- All mods are client-side only — no server modification
+- Maintained by the ProdigyPXP community
+
+## Important pages
+
+- Homepage / install guide: https://prodigyorigin.com
+- Extension listing: https://extension.prodigyorigin.com
+- GitHub repository: https://github.com/ProdigyPXP/ProdigyOrigin
+- Discord community: https://dsc.gg/ProdigyPXP
+- Privacy policy: https://github.com/ProdigyPXP/ProdigyOrigin/blob/master/meta/PRIVACY_POLICY.md
