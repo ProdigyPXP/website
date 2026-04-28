@@ -87,7 +87,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-[#1a1a1a] flex flex-col sm:flex-row justify-between gap-4">
           <p className="text-xs text-[#666]">© 2026 ProdigyPXP · Free and open-source</p>
           <p className="text-xs text-[#666] tracking-[0.2em] uppercase">
-            v4.1.0
+            v4.2.0
           </p>
         </div>
       </div>

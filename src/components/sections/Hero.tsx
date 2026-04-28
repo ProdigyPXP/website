@@ -38,7 +38,7 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="text-[#c9a84c] text-xs font-semibold tracking-[0.3em] uppercase mb-6"
         >
-          ✦ v4.1.0 · Open Source
+          ✦ v4.2.0 · Open Source
         </motion.p>
 
         <h1

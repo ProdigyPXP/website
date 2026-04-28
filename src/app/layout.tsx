@@ -32,7 +32,7 @@ const jsonLd = {
         price: "0",
         priceCurrency: "USD"
       },
-      softwareVersion: "4.1.0",
+      softwareVersion: "4.2.0",
       license: "https://github.com/ProdigyPXP/ProdigyOrigin/blob/master/LICENSE.txt",
       description:
         "Free, open-source browser extension that injects a full mod menu into Prodigy Math Game. Edit gold, XP, pets, battles, and more — all client-side.",

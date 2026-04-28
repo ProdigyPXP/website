@@ -20,7 +20,7 @@ Players of Prodigy Math Game (a browser-based educational math RPG for kids) who
 
 ## Key facts
 
-- Version: 4.1.0
+- Version: 4.2.0
 - License: MPL-2.0 (open source)
 - Price: Free
 - Supported browsers: Chrome, Edge, Brave, Opera, Firefox
