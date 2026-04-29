@@ -7,6 +7,20 @@ export const metadata: Metadata = {
   title: "Prodigy Origin — Mod loader for Prodigy Math Game",
   description:
     "Free, open-source browser extension that injects a full mod menu into Prodigy Math Game. Edit gold, XP, pets, battles — all client-side.",
+  keywords: [
+    "prodigy origin",
+    "prodigy hack",
+    "prodigy x",
+    "pxi fusion",
+    "x loader",
+    "prodigy",
+    "prodigypxp",
+    "prodigy mod",
+    "prodigy math game mod",
+    "prodigy extension",
+    "prodigy mod menu",
+    "prodigy cheat"
+  ],
   metadataBase: new URL("https://prodigyorigin.com"),
   openGraph: {
     title: "Prodigy Origin",
