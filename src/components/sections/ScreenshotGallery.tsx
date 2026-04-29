@@ -1,13 +1,14 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const screenshots = [
-  { label: "Player mods panel" },
-  { label: "Battle mods panel" },
-  { label: "Pet mods panel" },
-  { label: "Location mods panel" }
+  { label: "Player mods panel", src: "/screenshots/player-mods.jpg" },
+  { label: "Battle mods panel", src: "/screenshots/battle-mods.jpg" },
+  { label: "Pet mods panel", src: "/screenshots/pet-mods.jpg" },
+  { label: "Location mods panel", src: "/screenshots/location-mods.png" }
 ];
 
 export function ScreenshotGallery() {
@@ -31,20 +32,18 @@ export function ScreenshotGallery() {
                 delay: i * 0.1,
                 ease: [0.25, 0.1, 0.25, 1]
               }}
-              className="bg-[#111] border border-[#1a1a1a] rounded-xl overflow-hidden aspect-video flex items-center justify-center hover:border-[rgba(201,168,76,0.25)] transition-colors"
+              className="bg-[#111] border border-[#1a1a1a] rounded-xl overflow-hidden aspect-video hover:border-[rgba(201,168,76,0.25)] transition-colors relative"
             >
-              <div className="text-center">
-                <p className="text-[#c9a84c]/40 text-xs uppercase tracking-[0.25em] mb-2">
-                  Coming soon
-                </p>
-                <p className="text-[#444] text-sm">{s.label}</p>
-              </div>
+              <Image
+                src={s.src}
+                alt={s.label}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </motion.div>
           ))}
         </div>
-        <p className="text-center text-[#666] text-xs mt-8">
-          Screenshots will be added to /public/screenshots/ after launch.
-        </p>
       </div>
     </section>
   );
