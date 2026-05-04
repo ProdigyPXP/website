@@ -5,6 +5,7 @@ import { ExternalLink } from "lucide-react";
 const productLinks = [
   { label: "Features", href: "#features" },
   { label: "Install", href: "#install" },
+  { label: "Stats", href: "/stats" },
   { label: "GitHub", href: "https://github.com/ProdigyPXP/ProdigyOrigin", external: true }
 ];
 
@@ -87,7 +88,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-[#1a1a1a] flex flex-col sm:flex-row justify-between gap-4">
           <p className="text-xs text-[#666]">© 2026 ProdigyPXP · Free and open-source</p>
           <p className="text-xs text-[#666] tracking-[0.2em] uppercase">
-            v4.2.0
+            v4.2.1
           </p>
         </div>
       </div>
