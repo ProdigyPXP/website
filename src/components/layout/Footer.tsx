@@ -72,11 +72,11 @@ export function Footer() {
                 className="text-lg font-semibold text-white"
                 style={{ fontFamily: "var(--font-playfair-display)" }}
               >
-                Prodigy Origin
+                Play Origin
               </span>
             </Link>
             <p className="text-sm text-[#a0a0a0] leading-relaxed max-w-xs">
-              Free and open-source mod loader for Prodigy Math Game. Built by the ProdigyPXP community.
+              Free and open-source mod loader for online math games. Built by the ProdigyPXP community.
             </p>
           </div>
 
@@ -88,7 +88,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-[#1a1a1a] flex flex-col sm:flex-row justify-between gap-4">
           <p className="text-xs text-[#666]">© 2026 ProdigyPXP · Free and open-source</p>
           <p className="text-xs text-[#666] tracking-[0.2em] uppercase">
-            v4.2.1
+            v4.3.0
           </p>
         </div>
       </div>

@@ -9,7 +9,7 @@ const steps = [
   {
     icon: Download,
     title: "Visit the store",
-    desc: "Get Prodigy Origin from the Firefox Add-ons or Microsoft Edge Add-ons store."
+    desc: "Get Play Origin from the Firefox Add-ons or Microsoft Edge Add-ons store."
   },
   {
     icon: Package,
@@ -19,7 +19,7 @@ const steps = [
   {
     icon: MousePointer,
     title: "Pin it",
-    desc: "Pin Prodigy Origin to your toolbar from the extensions menu."
+    desc: "Pin Play Origin to your toolbar from the extensions menu."
   },
   {
     icon: PlayCircle,

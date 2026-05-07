@@ -18,7 +18,7 @@ export function ScreenshotGallery() {
         <SectionHeading
           eyebrow="Gallery"
           title="See it in action."
-          subtitle="The Origin GUI menu sits on top of the game canvas, toggleable with the Shift key."
+          subtitle="The Play Origin mod menu sits on top of the game canvas, toggleable with the Shift key."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
           {screenshots.map((s, i) => (

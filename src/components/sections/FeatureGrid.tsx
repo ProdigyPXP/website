@@ -15,7 +15,7 @@ const features = [
   {
     icon: Coins,
     title: "Player Mods",
-    desc: "Set gold, level, member stars, wins/losses, name, UserID, grade, and more."
+    desc: "Set in-game currency, level, premium tier, wins/losses, name, user ID, grade, and more."
   },
   {
     icon: Swords,
@@ -30,7 +30,7 @@ const features = [
   {
     icon: PawPrint,
     title: "Pet Mods",
-    desc: "Unlock all epics, mythical epics, clear pets, uncap pet level, add any pet."
+    desc: "Unlock all rare/epic pets, clear pets, uncap pet level, add any pet."
   },
   {
     icon: Wrench,

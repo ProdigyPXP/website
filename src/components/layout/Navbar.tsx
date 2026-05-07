@@ -39,7 +39,7 @@ export function Navbar() {
         <Link
           href="/"
           className="flex items-center gap-3 group"
-          aria-label="Prodigy Origin home"
+          aria-label="Play Origin home"
         >
           <Image
             src="/logo.png"
@@ -53,7 +53,7 @@ export function Navbar() {
             className="text-xl font-semibold text-white group-hover:text-[#c9a84c] transition-colors"
             style={{ fontFamily: "var(--font-playfair-display)" }}
           >
-            Prodigy Origin
+            Play Origin
           </span>
         </Link>
 

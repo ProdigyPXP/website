@@ -1,6 +1,6 @@
 # Architecture
 
-Marketing site for **Prodigy Origin**, a browser-extension mod loader for Prodigy Math Game. Single-page landing site, statically rendered.
+Marketing site for **Play Origin** (formerly Prodigy Origin), a browser-extension mod loader for online math games. Single-page landing site, statically rendered.
 
 ## Stack
 

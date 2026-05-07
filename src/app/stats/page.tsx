@@ -6,8 +6,8 @@ import { BrowserIcon } from "@/components/ui/BrowserIcon";
 import type { Browser } from "@/lib/useBrowser";
 
 export const metadata: Metadata = {
-  title: "Stats — Prodigy Origin",
-  description: "Live user count for Prodigy Origin across Chrome Web Store and Microsoft Edge Add-ons.",
+  title: "Stats — Play Origin",
+  description: "Live user count for Play Origin across Chrome Web Store and Microsoft Edge Add-ons.",
 };
 
 export const revalidate = 3600;

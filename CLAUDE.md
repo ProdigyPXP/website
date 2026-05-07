@@ -4,6 +4,8 @@
 Next.js **16.2.1** + React **19**. APIs, conventions, and file structure may differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing code. Heed deprecation notices.
 <!-- END:nextjs-agent-rules -->
 
+> **Branding:** Renamed from "Prodigy Origin" to "Play Origin" on 2026-05-06. The domain `prodigyorigin.com` and the `prodigy-origin-website` package name stay (URL/SEO equity). All visible copy says "Play Origin" or the long-form "Play Origin | Math game Mod Hack". See `../ProdigyOrigin/meta/REBRAND.md`.
+
 ## Where to look
 
 - **Architecture, stack, directory map, SEO/JSON-LD notes** → `.claude/architecture.md`

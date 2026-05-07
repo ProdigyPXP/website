@@ -4,9 +4,9 @@ import { Footer } from "@/components/layout/Footer";
 import { BrowserIcon } from "@/components/ui/BrowserIcon";
 
 export const metadata: Metadata = {
-  title: "Get Prodigy Origin",
+  title: "Get Play Origin",
   description:
-    "Prodigy Origin is temporarily unavailable on the Chrome Web Store. Install it from Firefox Add-ons or Microsoft Edge Add-ons.",
+    "Play Origin is temporarily unavailable on the Chrome Web Store. Install it from Firefox Add-ons or Microsoft Edge Add-ons.",
 };
 
 function DiscordIcon({ size = 20 }: { size?: number }) {
@@ -52,7 +52,7 @@ export default function GetPage() {
             </h1>
 
             <p className="text-[#a0a0a0] text-base sm:text-lg leading-relaxed mb-12">
-              Prodigy Origin is currently unavailable from the Chrome Web Store.
+              Play Origin is currently unavailable from the Chrome Web Store.
               You can still install it from the{" "}
               <span className="text-white">Firefox Add-ons</span> or{" "}
               <span className="text-white">Microsoft Edge Add-ons</span> stores.

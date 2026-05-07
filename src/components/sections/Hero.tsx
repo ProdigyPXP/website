@@ -38,14 +38,14 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="text-[#c9a84c] text-xs font-semibold tracking-[0.3em] uppercase mb-6"
         >
-          ✦ v4.2.1 · Open Source
+          ✦ v4.3.0 · Open Source
         </motion.p>
 
         <h1
           className="text-5xl sm:text-6xl lg:text-8xl leading-[1.05] text-white mb-6"
           style={{ fontFamily: "var(--font-playfair-display)" }}
         >
-          <AnimatedText>The mod loader for Prodigy Math Game.</AnimatedText>
+          <AnimatedText>Play Origin. Mod your math game.</AnimatedText>
         </h1>
 
         <motion.p
@@ -54,8 +54,9 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-[#a0a0a0] text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-10"
         >
-          A free, open-source browser extension that injects a full mod menu
-          into Prodigy. Edit gold, XP, pets, battles, and more.
+          A free, open-source mod loader that adds a full
+          cheat menu to your favorite online math game.
+          Edit currency, XP, pets, battles, and more.
         </motion.p>
 
         <motion.div
