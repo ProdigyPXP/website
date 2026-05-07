@@ -70,7 +70,7 @@ export default function GetPage() {
               </a>
 
               <a
-                href="https://addons.mozilla.org/en-US/firefox/addon/prodigyorigin/"
+                href="https://addons.mozilla.org/en-US/firefox/addon/playorigin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-[#c9a84c] text-black font-semibold rounded-md hover:bg-[#d4b65e] hover:shadow-[0_0_24px_rgba(201,168,76,0.4)] active:scale-[0.98] transition-all duration-200 text-base"
