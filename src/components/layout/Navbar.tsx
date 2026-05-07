@@ -12,6 +12,7 @@ const NAV_LINKS = [
   { label: "Gallery", href: "#gallery" },
   { label: "Install", href: "#install" },
   { label: "Stats", href: "/stats" },
+  { label: "Links", href: "/links" },
   { label: "GitHub", href: "https://github.com/ProdigyPXP/ProdigyOrigin", external: true }
 ];
 
