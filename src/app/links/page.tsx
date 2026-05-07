@@ -1,0 +1,196 @@
+import type { Metadata } from "next";
+import { ExternalLink, Download, Globe, MessageSquare, Youtube, Github } from "lucide-react";
+import { Navbar } from "@/components/layout/Navbar";
+import { Footer } from "@/components/layout/Footer";
+
+export const metadata: Metadata = {
+  title: "Links — Play Origin",
+  description:
+    "All Play Origin short links — install the extension, join the community, and more.",
+};
+
+type LinkItem = {
+  label: string;
+  aliases: string[];
+  href: string;
+  destination: string;
+  description: string;
+  icon: React.ReactNode;
+};
+
+type LinkGroup = {
+  category: string;
+  items: LinkItem[];
+};
+
+const iconClass = "shrink-0 text-[#c9a84c]";
+
+const LINKS: LinkGroup[] = [
+  {
+    category: "Install",
+    items: [
+      {
+        label: "Get the extension",
+        aliases: ["extension.playorig.in", "ext.playorig.in"],
+        href: "https://extension.playorig.in",
+        destination: "playorig.in/get",
+        description: "Redirects to the right store for your browser",
+        icon: <Download size={18} className={iconClass} />,
+      },
+      {
+        label: "Chrome Web Store",
+        aliases: ["chrome.playorig.in"],
+        href: "https://chrome.playorig.in",
+        destination: "playorig.in/get",
+        description: "Temporary redirect — Chrome listing coming soon",
+        icon: <Globe size={18} className={iconClass} />,
+      },
+      {
+        label: "Microsoft Edge Add-ons",
+        aliases: ["edge.playorig.in"],
+        href: "https://edge.playorig.in",
+        destination: "microsoftedge.microsoft.com",
+        description: "Play Origin on the Microsoft Edge Add-ons store",
+        icon: <Globe size={18} className={iconClass} />,
+      },
+      {
+        label: "Firefox Add-ons",
+        aliases: ["firefox.playorig.in"],
+        href: "https://firefox.playorig.in",
+        destination: "addons.mozilla.org",
+        description: "Play Origin on Firefox AMO",
+        icon: <Globe size={18} className={iconClass} />,
+      },
+    ],
+  },
+  {
+    category: "Community",
+    items: [
+      {
+        label: "Discord",
+        aliases: ["discord.playorig.in", "dsc.playorig.in"],
+        href: "https://discord.playorig.in",
+        destination: "dsc.gg/ProdigyPXP",
+        description: "Join the ProdigyPXP Discord server",
+        icon: <MessageSquare size={18} className={iconClass} />,
+      },
+    ],
+  },
+  {
+    category: "Content",
+    items: [
+      {
+        label: "YouTube",
+        aliases: ["youtube.playorig.in", "yt.playorig.in"],
+        href: "https://youtube.playorig.in",
+        destination: "youtube.com/@ProdigyPXP",
+        description: "ProdigyPXP on YouTube",
+        icon: <Youtube size={18} className={iconClass} />,
+      },
+    ],
+  },
+  {
+    category: "Source",
+    items: [
+      {
+        label: "GitHub",
+        aliases: ["github.playorig.in", "gh.playorig.in"],
+        href: "https://github.playorig.in",
+        destination: "github.com/ProdigyPXP",
+        description: "Open-source code on GitHub",
+        icon: <Github size={18} className={iconClass} />,
+      },
+    ],
+  },
+];
+
+export default function LinksPage() {
+  return (
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-black">
+        <section className="py-24 sm:py-32 w-full relative overflow-hidden">
+          <div
+            className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full blur-3xl pointer-events-none"
+            style={{
+              background:
+                "radial-gradient(ellipse, rgba(201,168,76,0.06) 0%, transparent 70%)",
+            }}
+          />
+
+          <div className="relative z-10 max-w-2xl mx-auto px-4 sm:px-6">
+            <div className="text-center mb-12">
+              <p className="text-[#c9a84c] text-xs font-semibold tracking-[0.3em] uppercase mb-5">
+                ✦ Short Links
+              </p>
+              <h1
+                className="text-4xl sm:text-5xl font-semibold text-white mb-4 leading-tight"
+                style={{ fontFamily: "var(--font-playfair-display)" }}
+              >
+                All Links
+              </h1>
+              <p className="text-[#a0a0a0] text-base leading-relaxed">
+                Every{" "}
+                <span className="text-white font-mono text-sm">
+                  *.playorig.in
+                </span>{" "}
+                shortlink in one place.
+              </p>
+            </div>
+
+            <div className="space-y-8">
+              {LINKS.map((group) => (
+                <div key={group.category}>
+                  <h2 className="text-[#666] text-xs font-semibold tracking-[0.25em] uppercase mb-3 px-1">
+                    {group.category}
+                  </h2>
+                  <div className="space-y-2">
+                    {group.items.map((item) => (
+                      <a
+                        key={item.aliases[0]}
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-start gap-4 p-4 rounded-xl border border-[#1a1a1a] bg-[#0a0a0a] hover:border-[#333] hover:bg-[#111] transition-all duration-200"
+                      >
+                        <div className="mt-0.5">{item.icon}</div>
+
+                        <div className="flex-1 min-w-0">
+                          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mb-1">
+                            {item.aliases.map((alias, i) => (
+                              <span
+                                key={alias}
+                                className="text-white text-sm font-mono"
+                              >
+                                {alias}
+                                {i < item.aliases.length - 1 && (
+                                  <span className="text-[#444] ml-2">/</span>
+                                )}
+                              </span>
+                            ))}
+                          </div>
+                          <p className="text-[#666] text-xs truncate">
+                            → {item.destination}
+                          </p>
+                          <p className="text-[#555] text-xs mt-1">
+                            {item.description}
+                          </p>
+                        </div>
+
+                        <ExternalLink
+                          size={14}
+                          className="shrink-0 mt-0.5 text-[#333] group-hover:text-[#c9a84c] transition-colors duration-200"
+                        />
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+}
