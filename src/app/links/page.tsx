@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ExternalLink, Download, Globe, MessageSquare, Youtube, Github } from "lucide-react";
+import { ExternalLink, Download, Globe, MessageSquare, Play, GitFork } from "lucide-react";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
@@ -85,7 +85,7 @@ const LINKS: LinkGroup[] = [
         href: "https://youtube.playorig.in",
         destination: "youtube.com/@ProdigyPXP",
         description: "ProdigyPXP on YouTube",
-        icon: <Youtube size={18} className={iconClass} />,
+        icon: <Play size={18} className={iconClass} />,
       },
     ],
   },
@@ -98,7 +98,7 @@ const LINKS: LinkGroup[] = [
         href: "https://github.playorig.in",
         destination: "github.com/ProdigyPXP",
         description: "Open-source code on GitHub",
-        icon: <Github size={18} className={iconClass} />,
+        icon: <GitFork size={18} className={iconClass} />,
       },
     ],
   },
