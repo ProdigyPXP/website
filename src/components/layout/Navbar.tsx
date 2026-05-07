@@ -82,8 +82,7 @@ export function Navbar() {
           <Button
             variant="primary"
             size="sm"
-            href="https://chrome.google.com/webstore/detail/mbjjannikkfihddnepoionimbedjnbib"
-            external
+            href="/get"
           >
             Install Extension
           </Button>
@@ -116,8 +115,7 @@ export function Navbar() {
             <Button
               variant="primary"
               size="md"
-              href="https://chrome.google.com/webstore/detail/mbjjannikkfihddnepoionimbedjnbib"
-              external
+              href="/get"
               className="mt-2"
             >
               Install Extension

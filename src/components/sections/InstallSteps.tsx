@@ -4,23 +4,22 @@ import { motion } from "framer-motion";
 import { Download, Package, MousePointer, PlayCircle } from "lucide-react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
-import { useBrowser } from "@/lib/useBrowser";
 
 const steps = [
   {
     icon: Download,
     title: "Visit the store",
-    desc: "Open the Prodigy Origin listing on the Chrome Web Store."
+    desc: "Get Prodigy Origin from the Firefox Add-ons or Microsoft Edge Add-ons store."
   },
   {
     icon: Package,
-    title: "Add to Chrome",
-    desc: "Click Add to Chrome and confirm the install prompt."
+    title: "Add to your browser",
+    desc: "Click Add to Firefox or Add to Edge and confirm the install prompt."
   },
   {
     icon: MousePointer,
     title: "Pin it",
-    desc: "Pin Prodigy Origin to your toolbar from the puzzle-piece menu."
+    desc: "Pin Prodigy Origin to your toolbar from the extensions menu."
   },
   {
     icon: PlayCircle,
@@ -30,7 +29,6 @@ const steps = [
 ];
 
 export function InstallSteps() {
-  const { storeLabel } = useBrowser();
   return (
     <section id="install" className="py-24 lg:py-32 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -73,11 +71,10 @@ export function InstallSteps() {
           <Button
             variant="primary"
             size="lg"
-            href="https://extension.prodigyorigin.com"
-            external
+            href="/get"
           >
             <Download size={18} />
-            Install from {storeLabel}
+            Get the Extension
           </Button>
         </div>
       </div>
