@@ -3,15 +3,60 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
+  <!-- Homepage -->
   <url>
     <loc>https://prodigyorigin.com/</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://prodigyorigin.com/logo.png</image:loc>
-      <image:title>Play Origin | Math game Mod Hack — free open-source mod loader</image:title>
+      <image:title>Play Origin — free open-source mod loader for Prodigy Math</image:title>
       <image:caption>Play Origin browser extension logo</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://prodigyorigin.com/screenshots/battle-mods.jpg</image:loc>
+      <image:title>Battle mods — Play Origin for Prodigy Math</image:title>
+      <image:caption>Play Origin battle mods screenshot showing in-game enhancements</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://prodigyorigin.com/screenshots/player-mods.jpg</image:loc>
+      <image:title>Player mods — Play Origin for Prodigy Math</image:title>
+      <image:caption>Play Origin player customization mods screenshot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://prodigyorigin.com/screenshots/pet-mods.jpg</image:loc>
+      <image:title>Pet mods — Play Origin for Prodigy Math</image:title>
+      <image:caption>Play Origin pet mods screenshot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://prodigyorigin.com/screenshots/location-mods.png</image:loc>
+      <image:title>Location mods — Play Origin for Prodigy Math</image:title>
+      <image:caption>Play Origin location mods screenshot</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Get / Install page -->
+  <url>
+    <loc>https://prodigyorigin.com/get</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Links directory -->
+  <url>
+    <loc>https://prodigyorigin.com/links</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Live stats -->
+  <url>
+    <loc>https://prodigyorigin.com/stats</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
