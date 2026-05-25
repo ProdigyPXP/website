@@ -5,6 +5,7 @@ import { ArrowRight, Code2 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { AnimatedText } from "@/components/ui/AnimatedText";
 import { BrowserIcon } from "@/components/ui/BrowserIcon";
+import { VERSION } from "@/lib/VERSION";
 import { useBrowser } from "@/lib/useBrowser";
 
 export function Hero() {
@@ -38,7 +39,7 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="text-[#c9a84c] text-xs font-semibold tracking-[0.3em] uppercase mb-6"
         >
-          ✦ v4.4.1 · Open Source
+          ✦ v{VERSION} · Open Source
         </motion.p>
 
         <h1
