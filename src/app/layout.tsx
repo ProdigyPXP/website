@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { VERSION } from "@/lib/VERSION";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -48,7 +49,7 @@ const jsonLd = {
         price: "0",
         priceCurrency: "USD"
       },
-      softwareVersion: "4.3.0",
+      softwareVersion: VERSION,
       license: "https://github.com/ProdigyPXP/ProdigyOrigin/blob/master/LICENSE.txt",
       description:
         "Free, open-source browser extension that injects a full mod menu into your favorite online math game. Edit currency, XP, pets, battles, and more — all client-side.",
