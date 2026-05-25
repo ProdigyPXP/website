@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Play Origin Website
+
+Marketing and landing site for **[Play Origin](https://prodigyorigin.com)** — a browser extension mod loader for online math games. This is a modern, statically-rendered single-page application built with Next.js 16, React 19, and Tailwind CSS v4.
+
+## Overview
+
+This repository contains the official website for Play Origin, showcasing features, installation instructions, and links to the browser extension. The site is optimized for performance and SEO, featuring structured data markup (JSON-LD), analytics integration, and a responsive design across all devices.
+
+## Technology Stack
+
+- **Framework**: Next.js 16.2.1 (App Router)
+- **Language**: TypeScript (strict mode)
+- **UI Library**: React 19.2.4
+- **Styling**: Tailwind CSS v4
+- **Animation**: Framer Motion
+- **Icons**: Lucide React
+- **Analytics**: Vercel Analytics & Speed Insights
+- **Package Manager**: pnpm
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ and pnpm
+
+### Installation & Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Install dependencies
+pnpm install
+
+# Run development server
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the site. Changes to `src/app/page.tsx` and component files will auto-refresh.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Build for production
+pnpm build
 
-## Learn More
+# Start production server
+pnpm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+  ├── app/
+  │   ├── layout.tsx          # Root layout (metadata, fonts, JSON-LD)
+  │   ├── page.tsx            # Main landing page
+  │   ├── globals.css         # Tailwind v4 entry point
+  │   └── icon.png            # Favicon
+  ├── components/
+  │   ├── layout/             # Navbar, Footer
+  │   ├── sections/           # Hero, Features, Gallery, Install, CTA
+  │   └── ui/                 # Reusable UI components
+  └── lib/
+      ├── useBrowser.ts       # Browser detection hook
+      └── utils.ts            # Utility functions
+public/
+  ├── logo.png                # Brand logo
+  ├── screenshots/            # Product screenshots
+  ├── robots.txt              # SEO robots file
+  ├── sitemap.xml             # XML sitemap
+  └── llms.txt                # LLM-friendly content index
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Path alias: `@/*` resolves to `./src/*` (configured in `tsconfig.json`).
 
-## Deploy on Vercel
+## Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Single-page landing site** with smooth scrolling sections
+- **Responsive design** optimized for mobile, tablet, and desktop
+- **Rich structured data** (JSON-LD) for search engines and social sharing
+- **Performance optimized** with Vercel Analytics and Speed Insights
+- **Accessible** with semantic HTML and ARIA labels
+- **SEO-friendly** with dynamic metadata and sitemap
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Important Notes
+
+When updating product information (version, features, install steps, or FAQ):
+1. Update `package.json` → `version`
+2. Update `src/app/layout.tsx` → `jsonLd.softwareVersion` and metadata
+3. Update `public/sitemap.xml` → `<lastmod>`
+
+Refer to `.claude/architecture.md` for detailed architecture and SEO notes.
+
+## Links
+
+- 🌐 **Website**: https://prodigyorigin.com
+- 📦 **Extension**: https://extension.prodigyorigin.com
+- 🎮 **Play Prodigy**: https://play.prodigygame.com
+- 📂 **Source Code**: https://github.com/ProdigyPXP/ProdigyOrigin
+
+## License
+
+This project is part of the Play Origin ecosystem. See the main repository for license details.
