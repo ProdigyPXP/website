@@ -10,7 +10,7 @@ Next.js **16.2.1** + React **19**. APIs, conventions, and file structure may dif
 
 - **Architecture, stack, directory map, SEO/JSON-LD notes** → `.claude/architecture.md`
 - **Dev/build commands, version-bump checklist** → `.claude/commands.md`
-- When a version bump is requested, go to `./src/lib/VERSION.ts` first.
+- When a version bump is requested, read `./.claude/commands.md` first.
 
 ## Quick facts
 
