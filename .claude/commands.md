@@ -20,5 +20,5 @@ pnpm exec tsc --noEmit
 When bumping the extension version, update **all three** in lockstep:
 
 1. `package.json` → `version`
-2. `src/app/layout.tsx` → `jsonLd` `softwareVersion`
+2. `src/lib/VERSION.ts`
 3. `public/sitemap.xml` → `<lastmod>`
