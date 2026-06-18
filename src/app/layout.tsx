@@ -236,7 +236,7 @@ const jsonLd = {
           "@type": "HowToStep",
           position: 2,
           name: "Add to your browser",
-          text: "Click 'Add to Firefox' or 'Add to Edge' and confirm the install prompt."
+          text: "Click 'Add to Chrome', 'Add to Firefox', or 'Add to Edge' and confirm the install prompt."
         },
         {
           "@type": "HowToStep",

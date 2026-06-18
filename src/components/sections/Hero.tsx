@@ -69,22 +69,6 @@ export function Hero() {
           initial={reduce ? {} : { opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}
-          className="mb-8"
-        >
-          <a
-            href="/get"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#c9a84c]/40 bg-[rgba(201,168,76,0.07)] text-[#c9a84c] text-sm hover:bg-[rgba(201,168,76,0.12)] transition-colors"
-          >
-            <span className="w-1.5 h-1.5 rounded-full bg-[#c9a84c] animate-pulse" />
-            Temporarily unavailable on Chrome — get it for Edge or Firefox
-            <ArrowRight size={14} />
-          </a>
-        </motion.div>
-
-        <motion.div
-          initial={reduce ? {} : { opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <Button
