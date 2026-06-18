@@ -6,8 +6,9 @@ import { BrowserIcon } from "@/components/ui/BrowserIcon";
 import type { Browser } from "@/lib/useBrowser";
 
 export const metadata: Metadata = {
-  title: "Stats — Play Origin",
-  description: "Live user count for Play Origin across Chrome Web Store and Microsoft Edge Add-ons.",
+  title: "Play Origin Stats — Prodigy Hack Extension Active Users",
+  description:
+    "Live install and active-user counts for Play Origin — the free Prodigy Math Game mod extension — across Chrome, Edge, and Firefox.",
 };
 
 export const revalidate = 3600;
@@ -30,7 +31,7 @@ const livePlatforms: {
     label: "Chrome Web Store",
     browser: "chrome",
     storeUrl:
-      "https://chrome.google.com/webstore/detail/mbjjannikkfihddnepoionimbedjnbib",
+      "https://chromewebstore.google.com/detail/meckkcfdiildmoohhfkddapggojdhpgo",
     note: "Weekly active users",
     approximate: true,
   },

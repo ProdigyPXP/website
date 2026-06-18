@@ -4,9 +4,9 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Links — Play Origin",
+  title: "Links — Play Origin | Prodigy Mod Extension",
   description:
-    "All Play Origin short links — install the extension, join the community, and more.",
+    "All Play Origin short links — install the Prodigy Math Game mod extension for Chrome, Edge, or Firefox, join the community, and more.",
 };
 
 type LinkItem = {

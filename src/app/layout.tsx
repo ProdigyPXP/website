@@ -5,29 +5,41 @@ import { VERSION } from "@/lib/VERSION";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Play Origin | Math game Mod Hack — free open-source mod loader",
+  title: "Play Origin — Prodigy Math Hack & Mod Extension | Free + Open Source",
   description:
-    "Free, open-source browser extension that injects a full mod menu into your favorite online math game. Edit currency, XP, pets, battles — all client-side.",
+    "Play Origin is the free, open-source Prodigy Math Game hack and mod extension. Edit gold, XP, pets, and battles client-side. Works on Chrome, Edge, Brave, and Firefox.",
   keywords: [
-    "play origin",
-    "play origin mod hack",
-    "math game mod",
-    "math game cheat",
-    "math game mod menu",
-    "online math game mod",
-    "browser extension mod loader",
-    "prodigy origin",
+    "prodigy hack",
+    "prodigy hack 2026",
+    "how to hack prodigy",
     "prodigy mod",
-    "prodigy math game mod",
-    "prodigy mod menu",
+    "prodigy origin",
+    "prodigy math game hack",
+    "prodigy math hack",
+    "prodigy game hack",
+    "prodigy hack extension",
+    "prodigy chrome extension",
+    "prodigy hack chrome",
+    "prodigy free gold",
+    "prodigy scripts",
     "prodigy cheat",
-    "prodigypxp"
+    "prodigy pet hack",
+    "prodigypxp",
+    "prodigypnp",
+    "prodigy pnp",
+    "prodigyx",
+    "prodigy x loader",
+    "pxi fusion",
+    "play origin",
+    "prodigy mod menu",
+    "browser extension mod loader",
+    "prodigy math game mod"
   ],
   metadataBase: new URL("https://prodigyorigin.com"),
   openGraph: {
-    title: "Play Origin | Math game Mod Hack",
+    title: "Play Origin — Prodigy Math Hack & Mod Extension",
     description:
-      "Free and open-source mod loader for online math games.",
+      "Free, open-source Prodigy Math Game mod with gold hacks, pet unlocks, battle mods, and more.",
     images: ["/logo.png"]
   }
 };
