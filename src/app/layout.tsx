@@ -131,6 +131,70 @@ const jsonLd = {
             "@type": "Answer",
             text: "Play Origin is open-source and its full source code is publicly auditable on GitHub. All modifications are client-side only — the extension does not interact with the game's servers or modify any account data on their end."
           }
+        },
+        {
+          "@type": "Question",
+          name: "Is Play Origin a Prodigy Math Game hack?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Play Origin is a Prodigy Math Game hack and mod extension — also called a Prodigy cheat or Prodigy mod. It runs as a browser extension in Chrome, Edge, Brave, Firefox, and Opera, adding a full in-game cheat menu accessible by pressing Shift."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "How do I get free gold in Prodigy?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Install Play Origin, open Prodigy Math Game at play.prodigygame.com, and press Shift to open the mod menu. Go to Player Mods and type any value in the gold/coins field, then press Apply. The change takes effect immediately, client-side only."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "What is Prodigy Origin?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Prodigy Origin is the former name of the Play Origin extension. The project was rebranded from Prodigy Origin to Play Origin in 2026 while retaining the same codebase, team, and GitHub repository at github.com/ProdigyPXP/ProdigyOrigin. You may also see it referenced as ProdigyPXP, ProdigyX, Prodigy X loader, Prodigy PNP, ProdigyPNP, or PXI Fusion on community forums."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Does Play Origin work on Chrome?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Play Origin is available as a Prodigy hack Chrome extension on the Chrome Web Store. It works in Chrome, Brave, Opera, and any Chromium-based browser. The Chrome Web Store listing is at chromewebstore.google.com/detail/meckkcfdiildmoohhfkddapggojdhpgo."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "How do I hack Prodigy Math Game in 2026?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "To hack Prodigy Math Game in 2026: (1) Install the Play Origin extension from the Chrome Web Store, Firefox Add-ons, or Microsoft Edge Add-ons. (2) Open Prodigy Math Game at play.prodigygame.com. (3) Press Shift to open the Play Origin mod menu. (4) Use Player Mods to set gold, XP, and level; Pet Mods to unlock rare and epic pets; Battle Mods for instant kills; or Location Mods to teleport. No jailbreak or account login required — runs entirely client-side in your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "What is ProdigyPXP?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "ProdigyPXP is the developer community and GitHub organization behind Play Origin. The source code is maintained at github.com/ProdigyPXP/ProdigyOrigin and the community Discord is at dsc.gg/ProdigyPXP. ProdigyPXP also publishes tutorials and updates on YouTube at youtube.com/@ProdigyPXP."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Are there Prodigy scripts or cheats that still work in 2026?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Play Origin is the most actively maintained Prodigy cheat and script tool for 2026. Unlike outdated Prodigy console scripts that break with each game update, Play Origin is a proper browser extension that persists across page reloads and is updated by the ProdigyPXP team to match each Prodigy Math Game patch. It is free, open-source, and available on Chrome, Firefox, and Edge."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "How do I unlock all pets in Prodigy?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Open the Play Origin mod menu by pressing Shift inside Prodigy Math Game, then navigate to Pet Mods. Click 'Unlock all rare/epic pets' to add every rare and epic pet to your collection instantly. You can also add any individual pet by ID, clear your current pets, or uncap a pet's level limit."
+          }
         }
       ]
     },
