@@ -48,6 +48,12 @@ export function FeatureGrid() {
   return (
     <section id="features" className="py-24 lg:py-32 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <span className="sr-only">
+          Play Origin Prodigy Math Game mod menu features: Prodigy free gold and currency hacks,
+          Prodigy battle mod instant-kill cheats, Prodigy pet unlock scripts including all rare and epic pets,
+          Prodigy location teleport mods, and Prodigy scripts for saving and loading your character.
+          All Prodigy mods work client-side with no account modifications.
+        </span>
         <SectionHeading
           eyebrow="Capabilities"
           title="Every mod you need, organized by category."

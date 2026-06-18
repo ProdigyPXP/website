@@ -14,6 +14,14 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-16">
+      <span className="sr-only">
+        Play Origin is a free Prodigy Math Game hack, mod, and cheat extension — also known as
+        Prodigy Origin, ProdigyPXP, Prodigy X, ProdigyX, Prodigy PNP, ProdigyPNP, PXI, and PXI Fusion.
+        The best Prodigy hack extension for Chrome, Edge, Firefox, and Brave in 2026.
+        Use it to get free gold in Prodigy, hack Prodigy Math pets, edit Prodigy battles,
+        and unlock premium membership. A complete Prodigy math hack and Prodigy game hack
+        browser plugin — Prodigy hack chrome extension available now on the Chrome Web Store.
+      </span>
       {/* Gold radial glow */}
       <div
         className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full blur-3xl pointer-events-none"
