@@ -28,3 +28,4 @@ User-agent: CCBot
 Disallow: /
 
 Sitemap: https://prodigyorigin.com/sitemap.xml
+# Machine-readable context for AI systems: https://prodigyorigin.com/llms.txt
