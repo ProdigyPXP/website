@@ -74,7 +74,8 @@ export function Hero() {
           <Button
             variant="primary"
             size="lg"
-            href="/get"
+            href="https://extension.playorig.in"
+            external
           >
             <BrowserIcon browser={browser} size={18} />
             Install Extension

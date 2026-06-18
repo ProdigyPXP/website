@@ -76,7 +76,8 @@ export function InstallSteps() {
           <Button
             variant="primary"
             size="lg"
-            href="/get"
+            href="https://extension.playorig.in"
+            external
           >
             <Download size={18} />
             Get the Extension
