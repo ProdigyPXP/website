@@ -1,8 +1,25 @@
 # Play Origin
 
-> Free, open-source mod and hack browser extension for Prodigy Math Game (prodigygame.com)
+> Free, open-source browser extension mod loader for Prodigy Math Game — no jailbreak, no account risk, 100% client-side. (Formerly known as Prodigy Origin.)
 
-Play Origin — formerly Prodigy Origin, also known as ProdigyPXP, Prodigy X, ProdigyX, PXI, PXI Fusion, Prodigy PNP, and ProdigyPNP — is a browser extension that injects a full cheat and mod menu into Prodigy Math Game at play.prodigygame.com. Press Shift while in-game to open the menu.
+Play Origin — formerly Prodigy Origin, also known as ProdigyPXP, Prodigy X, ProdigyX, PXI, PXI Fusion, Prodigy PNP, and ProdigyPNP — is a browser extension that injects a full cheat and mod menu into Prodigy Math Game at play.prodigygame.com. Press Shift while in-game to open the menu. Players can enable mods across nine categories: player stats, battle mechanics, location/movement, pets, items, utility tools, and beta features.
+
+## Who It's For
+
+Players of Prodigy Math Game who want to experiment with game mechanics, test features, or explore the game without grinding. Primarily used by the ProdigyPXP modding community.
+
+## Key Facts
+
+- **Version:** 4.4.1
+- **Price:** Free
+- **License:** MPL-2.0 (open source)
+- **Supported browsers:** Chrome, Edge, Brave, Opera, Firefox
+- **Install:** https://extension.playorig.in
+- **Source code:** https://github.com/ProdigyPXP/ProdigyOrigin
+- **Community:** https://dsc.gg/ProdigyPXP
+- **Privacy policy:** https://github.com/ProdigyPXP/ProdigyOrigin/blob/master/meta/PRIVACY_POLICY.md
+- All mods are client-side only — no server modification
+- Maintained by the ProdigyPXP community
 
 ## Key Pages
 
@@ -35,6 +52,7 @@ Play Origin adds a mod menu to Prodigy Math Game with these categories:
 - YouTube: https://youtube.com/@ProdigyPXP
 - License: MPL-2.0 (free and open-source)
 - Developer: ProdigyPXP
+- Privacy policy: https://github.com/ProdigyPXP/ProdigyOrigin/blob/master/meta/PRIVACY_POLICY.md
 
 ## Frequently Asked Questions
 
