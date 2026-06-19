@@ -6,10 +6,10 @@ Play Origin — formerly Prodigy Origin, also known as ProdigyPXP, Prodigy X, Pr
 
 ## Key Pages
 
-- Homepage / Overview: https://prodigyorigin.com
-- Install (Chrome, Edge, Firefox): https://prodigyorigin.com/get
-- Live user stats: https://prodigyorigin.com/stats
-- Short links directory: https://prodigyorigin.com/links
+- Homepage / Overview: https://playorig.in
+- Install (Chrome, Edge, Firefox): https://playorig.in/get
+- Live user stats: https://playorig.in/stats
+- Short links directory: https://playorig.in/links
 
 ## Install Links
 
@@ -60,4 +60,4 @@ Install Play Origin from your browser's extension store (Chrome, Edge, or Firefo
 ProdigyPXP is the developer community behind Play Origin. GitHub: github.com/ProdigyPXP, Discord: dsc.gg/ProdigyPXP, YouTube: youtube.com/@ProdigyPXP.
 
 **What is PXI / Prodigy X / ProdigyPNP?**
-PXI Fusion, Prodigy X loader, and ProdigyPNP are all community names and historical aliases for the Play Origin extension and its developer community. They all refer to the same tool available at prodigyorigin.com.
+PXI Fusion, Prodigy X loader, and ProdigyPNP are all community names and historical aliases for the Play Origin extension and its developer community. They all refer to the same tool available at playorig.in.

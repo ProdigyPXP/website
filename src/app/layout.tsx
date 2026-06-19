@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "browser extension mod loader",
     "prodigy math game mod"
   ],
-  metadataBase: new URL("https://prodigyorigin.com"),
+  metadataBase: new URL("https://playorig.in"),
   openGraph: {
     title: "Play Origin — Prodigy Math Hack & Mod Extension",
     description:
@@ -49,11 +49,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "@id": "https://prodigyorigin.com/#app",
+      "@id": "https://playorig.in/#app",
       name: "Play Origin",
       alternateName: ["Play Origin | Math game Mod Hack", "Prodigy Origin"],
-      url: "https://prodigyorigin.com",
-      downloadUrl: "https://extension.prodigyorigin.com",
+      url: "https://playorig.in",
+      downloadUrl: "https://extension.playorig.in",
       applicationCategory: "BrowserApplication",
       operatingSystem: "Chrome, Edge, Brave, Opera, Firefox",
       offers: {
@@ -74,7 +74,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://prodigyorigin.com/#faq",
+      "@id": "https://playorig.in/#faq",
       mainEntity: [
         {
           "@type": "Question",
@@ -105,7 +105,7 @@ const jsonLd = {
           name: "How do I install Play Origin?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Visit extension.prodigyorigin.com, install the extension for your browser (Firefox or Microsoft Edge are currently supported store listings), then pin the extension from the puzzle-piece menu. Once installed, open the math game and press Shift to toggle the Play Origin mod menu."
+            text: "Visit extension.playorig.in, install the extension for your browser (available on Chrome Web Store, Firefox Add-ons, and Microsoft Edge Add-ons), then pin the extension from the puzzle-piece menu. Once installed, open the math game and press Shift to toggle the Play Origin mod menu."
           }
         },
         {
@@ -200,7 +200,7 @@ const jsonLd = {
     },
     {
       "@type": "HowTo",
-      "@id": "https://prodigyorigin.com/#install-howto",
+      "@id": "https://playorig.in/#install-howto",
       name: "How to install Play Origin",
       description: "Install the Play Origin mod loader browser extension in four steps.",
       totalTime: "PT2M",
@@ -210,7 +210,7 @@ const jsonLd = {
           "@type": "HowToStep",
           position: 1,
           name: "Visit the store",
-          text: "Open the Play Origin listing for your browser at extension.prodigyorigin.com."
+          text: "Open the Play Origin listing for your browser at extension.playorig.in."
         },
         {
           "@type": "HowToStep",

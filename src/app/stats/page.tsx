@@ -109,7 +109,7 @@ export default async function StatsPage() {
 
               {/* Firefox placeholder */}
               <a
-                href="https://firefox.prodigyorigin.com"
+                href="https://firefox.playorig.in"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#111] border border-[#1a1a1a] rounded-xl p-8 flex flex-col gap-5 opacity-50 hover:opacity-70 transition-opacity"

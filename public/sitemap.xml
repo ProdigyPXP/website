@@ -5,32 +5,32 @@
 >
   <!-- Homepage -->
   <url>
-    <loc>https://prodigyorigin.com/</loc>
+    <loc>https://playorig.in/</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://prodigyorigin.com/logo.png</image:loc>
+      <image:loc>https://playorig.in/logo.png</image:loc>
       <image:title>Play Origin — free Prodigy Math Game mod and hack extension</image:title>
       <image:caption>Play Origin browser extension logo</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prodigyorigin.com/screenshots/battle-mods.jpg</image:loc>
+      <image:loc>https://playorig.in/screenshots/battle-mods.jpg</image:loc>
       <image:title>Battle mods — Play Origin Prodigy Math hack</image:title>
       <image:caption>Play Origin battle mods screenshot showing in-game Prodigy battle enhancements</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prodigyorigin.com/screenshots/player-mods.jpg</image:loc>
+      <image:loc>https://playorig.in/screenshots/player-mods.jpg</image:loc>
       <image:title>Player mods — Play Origin Prodigy gold and XP hack</image:title>
       <image:caption>Play Origin player mods showing Prodigy gold, XP, and level customization</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prodigyorigin.com/screenshots/pet-mods.jpg</image:loc>
+      <image:loc>https://playorig.in/screenshots/pet-mods.jpg</image:loc>
       <image:title>Pet mods — Play Origin Prodigy pet unlock hack</image:title>
       <image:caption>Play Origin pet mods for unlocking rare and epic Prodigy pets</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prodigyorigin.com/screenshots/location-mods.png</image:loc>
+      <image:loc>https://playorig.in/screenshots/location-mods.png</image:loc>
       <image:title>Location mods — Play Origin Prodigy teleport hack</image:title>
       <image:caption>Play Origin location mods for Prodigy map teleportation and WASD movement</image:caption>
     </image:image>
@@ -38,7 +38,7 @@
 
   <!-- Get / Install page -->
   <url>
-    <loc>https://prodigyorigin.com/get</loc>
+    <loc>https://playorig.in/get</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -46,7 +46,7 @@
 
   <!-- Links directory -->
   <url>
-    <loc>https://prodigyorigin.com/links</loc>
+    <loc>https://playorig.in/links</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -54,7 +54,7 @@
 
   <!-- Live stats -->
   <url>
-    <loc>https://prodigyorigin.com/stats</loc>
+    <loc>https://playorig.in/stats</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>

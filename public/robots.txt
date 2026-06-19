@@ -27,5 +27,5 @@ Allow: /
 User-agent: CCBot
 Disallow: /
 
-Sitemap: https://prodigyorigin.com/sitemap.xml
-# Machine-readable context for AI systems: https://prodigyorigin.com/llms.txt
+Sitemap: https://playorig.in/sitemap.xml
+# Machine-readable context for AI systems: https://playorig.in/llms.txt
