@@ -5,30 +5,52 @@ import { VERSION } from "@/lib/VERSION";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Play Origin | Math game Mod Hack — free open-source mod loader",
+  title: "Play Origin — Prodigy Math Hack & Mod Extension | Free + Open Source",
   description:
-    "Free, open-source browser extension that injects a full mod menu into your favorite online math game. Edit currency, XP, pets, battles — all client-side.",
+    "Play Origin is the free, open-source Prodigy Math Game hack and mod extension. Edit gold, XP, pets, and battles client-side. Works on Chrome, Edge, Brave, and Firefox.",
   keywords: [
-    "play origin",
-    "play origin mod hack",
-    "math game mod",
-    "math game cheat",
-    "math game mod menu",
-    "online math game mod",
-    "browser extension mod loader",
-    "prodigy origin",
+    "prodigy hack",
+    "prodigy hack 2026",
+    "how to hack prodigy",
     "prodigy mod",
-    "prodigy math game mod",
-    "prodigy mod menu",
+    "prodigy origin",
+    "prodigy math game hack",
+    "prodigy math hack",
+    "prodigy game hack",
+    "prodigy hack extension",
+    "prodigy chrome extension",
+    "prodigy hack chrome",
+    "prodigy free gold",
+    "prodigy scripts",
     "prodigy cheat",
-    "prodigypxp"
+    "prodigy pet hack",
+    "prodigypxp",
+    "prodigypnp",
+    "prodigy pnp",
+    "prodigyx",
+    "prodigy x loader",
+    "pxi fusion",
+    "play origin",
+    "prodigy mod menu",
+    "browser extension mod loader",
+    "prodigy math game mod"
   ],
-  metadataBase: new URL("https://prodigyorigin.com"),
+  metadataBase: new URL("https://playorig.in"),
   openGraph: {
-    title: "Play Origin | Math game Mod Hack",
+    title: "Play Origin — Prodigy Math Hack & Mod Extension",
     description:
-      "Free and open-source mod loader for online math games.",
-    images: ["/logo.png"]
+      "Free, open-source Prodigy Math Game mod with gold hacks, pet unlocks, battle mods, and more.",
+    url: "https://playorig.in",
+    siteName: "Play Origin",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Play Origin — Prodigy Math Game mod extension" }],
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Play Origin — Prodigy Math Hack & Mod Extension",
+    description:
+      "Free, open-source Prodigy Math Game mod with gold hacks, pet unlocks, battle mods, and more.",
+    images: ["/og.png"]
   }
 };
 
@@ -37,11 +59,21 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "@id": "https://prodigyorigin.com/#app",
+      "@id": "https://playorig.in/#app",
       name: "Play Origin",
-      alternateName: ["Play Origin | Math game Mod Hack", "Prodigy Origin"],
-      url: "https://prodigyorigin.com",
-      downloadUrl: "https://extension.prodigyorigin.com",
+      alternateName: [
+        "Play Origin | Math game Mod Hack",
+        "Prodigy Origin",
+        "ProdigyPXP",
+        "Prodigy X",
+        "ProdigyX",
+        "PXI",
+        "PXI Fusion",
+        "Prodigy PNP",
+        "ProdigyPNP"
+      ],
+      url: "https://playorig.in",
+      downloadUrl: "https://extension.playorig.in",
       applicationCategory: "BrowserApplication",
       operatingSystem: "Chrome, Edge, Brave, Opera, Firefox",
       offers: {
@@ -62,7 +94,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      "@id": "https://prodigyorigin.com/#faq",
+      "@id": "https://playorig.in/#faq",
       mainEntity: [
         {
           "@type": "Question",
@@ -93,7 +125,7 @@ const jsonLd = {
           name: "How do I install Play Origin?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Visit extension.prodigyorigin.com, install the extension for your browser (Firefox or Microsoft Edge are currently supported store listings), then pin the extension from the puzzle-piece menu. Once installed, open the math game and press Shift to toggle the Play Origin mod menu."
+            text: "Visit extension.playorig.in, install the extension for your browser (available on Chrome Web Store, Firefox Add-ons, and Microsoft Edge Add-ons), then pin the extension from the puzzle-piece menu. Once installed, open the math game and press Shift to toggle the Play Origin mod menu."
           }
         },
         {
@@ -119,12 +151,76 @@ const jsonLd = {
             "@type": "Answer",
             text: "Play Origin is open-source and its full source code is publicly auditable on GitHub. All modifications are client-side only — the extension does not interact with the game's servers or modify any account data on their end."
           }
+        },
+        {
+          "@type": "Question",
+          name: "Is Play Origin a Prodigy Math Game hack?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Play Origin is a Prodigy Math Game hack and mod extension — also called a Prodigy cheat or Prodigy mod. It runs as a browser extension in Chrome, Edge, Brave, Firefox, and Opera, adding a full in-game cheat menu accessible by pressing Shift."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "How do I get free gold in Prodigy?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Install Play Origin, open Prodigy Math Game at play.prodigygame.com, and press Shift to open the mod menu. Go to Player Mods and type any value in the gold/coins field, then press Apply. The change takes effect immediately, client-side only."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "What is Prodigy Origin?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Prodigy Origin is the former name of the Play Origin extension. The project was rebranded from Prodigy Origin to Play Origin in 2026 while retaining the same codebase, team, and GitHub repository at github.com/ProdigyPXP/ProdigyOrigin. You may also see it referenced as ProdigyPXP, ProdigyX, Prodigy X loader, Prodigy PNP, ProdigyPNP, or PXI Fusion on community forums."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Does Play Origin work on Chrome?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Play Origin is available as a Prodigy hack Chrome extension on the Chrome Web Store. It works in Chrome, Brave, Opera, and any Chromium-based browser. The Chrome Web Store listing is at chromewebstore.google.com/detail/meckkcfdiildmoohhfkddapggojdhpgo."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "How do I hack Prodigy Math Game in 2026?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "To hack Prodigy Math Game in 2026: (1) Install the Play Origin extension from the Chrome Web Store, Firefox Add-ons, or Microsoft Edge Add-ons. (2) Open Prodigy Math Game at play.prodigygame.com. (3) Press Shift to open the Play Origin mod menu. (4) Use Player Mods to set gold, XP, and level; Pet Mods to unlock rare and epic pets; Battle Mods for instant kills; or Location Mods to teleport. No jailbreak or account login required — runs entirely client-side in your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "What is ProdigyPXP?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "ProdigyPXP is the developer community and GitHub organization behind Play Origin. The source code is maintained at github.com/ProdigyPXP/ProdigyOrigin and the community Discord is at dsc.gg/ProdigyPXP. ProdigyPXP also publishes tutorials and updates on YouTube at youtube.com/@ProdigyPXP."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Are there Prodigy scripts or cheats that still work in 2026?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Play Origin is the most actively maintained Prodigy cheat and script tool for 2026. Unlike outdated Prodigy console scripts that break with each game update, Play Origin is a proper browser extension that persists across page reloads and is updated by the ProdigyPXP team to match each Prodigy Math Game patch. It is free, open-source, and available on Chrome, Firefox, and Edge."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "How do I unlock all pets in Prodigy?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Open the Play Origin mod menu by pressing Shift inside Prodigy Math Game, then navigate to Pet Mods. Click 'Unlock all rare/epic pets' to add every rare and epic pet to your collection instantly. You can also add any individual pet by ID, clear your current pets, or uncap a pet's level limit."
+          }
         }
       ]
     },
     {
       "@type": "HowTo",
-      "@id": "https://prodigyorigin.com/#install-howto",
+      "@id": "https://playorig.in/#install-howto",
       name: "How to install Play Origin",
       description: "Install the Play Origin mod loader browser extension in four steps.",
       totalTime: "PT2M",
@@ -134,7 +230,7 @@ const jsonLd = {
           "@type": "HowToStep",
           position: 1,
           name: "Visit the store",
-          text: "Open the Play Origin listing for your browser at extension.prodigyorigin.com."
+          text: "Open the Play Origin listing for your browser at extension.playorig.in."
         },
         {
           "@type": "HowToStep",

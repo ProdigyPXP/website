@@ -14,6 +14,11 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-16">
+      <span className="sr-only">
+        Play Origin is the free, open-source Prodigy Math Game mod extension built by the ProdigyPXP community —
+        previously released as Prodigy Origin, and also known as Prodigy X, ProdigyX, PXI, PXI Fusion, and Prodigy PNP.
+        It runs in Chrome, Edge, Firefox, and Brave, giving you a full in-game mod menu to set gold, unlock pets, and edit battles.
+      </span>
       {/* Gold radial glow */}
       <div
         className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full blur-3xl pointer-events-none"

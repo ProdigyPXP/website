@@ -48,6 +48,11 @@ export function FeatureGrid() {
   return (
     <section id="features" className="py-24 lg:py-32 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <span className="sr-only">
+          The mod menu covers every part of the game: set your gold to any amount, run instant-kill cheats in battles,
+          unlock rare and epic pets by name or ID, teleport between locations, and save or load your full character state.
+          Everything runs locally in your browser — nothing on your account changes server-side.
+        </span>
         <SectionHeading
           eyebrow="Capabilities"
           title="Every mod you need, organized by category."

@@ -4,9 +4,9 @@ import { Footer } from "@/components/layout/Footer";
 import { BrowserIcon } from "@/components/ui/BrowserIcon";
 
 export const metadata: Metadata = {
-  title: "Get Play Origin",
+  title: "Install Play Origin — Free Prodigy Math Game Mod Extension",
   description:
-    "Play Origin is temporarily unavailable on the Chrome Web Store. Install it from Firefox Add-ons or Microsoft Edge Add-ons.",
+    "Download the free Prodigy Math Game mod extension for Chrome, Edge, and Firefox. Play Origin — formerly Prodigy Origin — lets you set gold, unlock pets, and edit battles. Install in under a minute.",
 };
 
 function DiscordIcon({ size = 20 }: { size?: number }) {
@@ -38,6 +38,11 @@ export default function GetPage() {
           />
 
           <div className="relative z-10 max-w-2xl mx-auto px-4 sm:px-6 text-center">
+            <span className="sr-only">
+              Play Origin is the free Prodigy Math Game mod extension, available on the Chrome Web Store,
+              Microsoft Edge Add-ons, and Firefox Add-ons. Previously published as Prodigy Origin by the
+              ProdigyPXP team — same extension, same mods, new name.
+            </span>
             <p className="text-[#c9a84c] text-xs font-semibold tracking-[0.3em] uppercase mb-6">
               ✦ Temporary Notice
             </p>

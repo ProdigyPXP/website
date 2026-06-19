@@ -32,6 +32,11 @@ export function InstallSteps() {
   return (
     <section id="install" className="py-24 lg:py-32 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <span className="sr-only">
+          Getting started takes under a minute. Add Play Origin to Chrome, Edge, or Firefox,
+          then head to play.prodigygame.com and press Shift to open the mod menu.
+          The extension is maintained by the ProdigyPXP team and fully updated for 2026.
+        </span>
         <SectionHeading
           eyebrow="Get Started"
           title="Install in four steps."

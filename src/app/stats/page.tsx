@@ -6,8 +6,9 @@ import { BrowserIcon } from "@/components/ui/BrowserIcon";
 import type { Browser } from "@/lib/useBrowser";
 
 export const metadata: Metadata = {
-  title: "Stats — Play Origin",
-  description: "Live user count for Play Origin across Chrome Web Store and Microsoft Edge Add-ons.",
+  title: "Play Origin Stats — Prodigy Hack Extension Active Users",
+  description:
+    "See how many Prodigy players run Play Origin each week. Live active user counts for the free Prodigy Math Game mod extension across Chrome, Edge, and Firefox — pulled from public store listings and updated hourly.",
 };
 
 export const revalidate = 3600;
@@ -30,7 +31,7 @@ const livePlatforms: {
     label: "Chrome Web Store",
     browser: "chrome",
     storeUrl:
-      "https://chrome.google.com/webstore/detail/mbjjannikkfihddnepoionimbedjnbib",
+      "https://chromewebstore.google.com/detail/meckkcfdiildmoohhfkddapggojdhpgo",
     note: "Weekly active users",
     approximate: true,
   },
@@ -61,6 +62,12 @@ export default async function StatsPage() {
             }}
           />
           <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
+            <span className="sr-only">
+              Play Origin is one of the most widely used Prodigy Math Game mod extensions available,
+              with active users across Chrome, Edge, and Firefox. These figures come directly from each
+              browser&apos;s public store listing and refresh every hour. Chrome reports weekly active users;
+              Edge Add-ons reports total active users.
+            </span>
             <p className="text-[#c9a84c] text-xs font-semibold tracking-[0.3em] uppercase mb-6">
               ✦ Live Stats
             </p>
@@ -108,7 +115,7 @@ export default async function StatsPage() {
 
               {/* Firefox placeholder */}
               <a
-                href="https://firefox.prodigyorigin.com"
+                href="https://firefox.playorig.in"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#111] border border-[#1a1a1a] rounded-xl p-8 flex flex-col gap-5 opacity-50 hover:opacity-70 transition-opacity"
