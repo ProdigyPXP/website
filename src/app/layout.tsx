@@ -40,7 +40,17 @@ export const metadata: Metadata = {
     title: "Play Origin — Prodigy Math Hack & Mod Extension",
     description:
       "Free, open-source Prodigy Math Game mod with gold hacks, pet unlocks, battle mods, and more.",
-    images: ["/logo.png"]
+    url: "https://playorig.in",
+    siteName: "Play Origin",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Play Origin — Prodigy Math Game mod extension" }],
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Play Origin — Prodigy Math Hack & Mod Extension",
+    description:
+      "Free, open-source Prodigy Math Game mod with gold hacks, pet unlocks, battle mods, and more.",
+    images: ["/og.png"]
   }
 };
 
@@ -51,7 +61,17 @@ const jsonLd = {
       "@type": "SoftwareApplication",
       "@id": "https://playorig.in/#app",
       name: "Play Origin",
-      alternateName: ["Play Origin | Math game Mod Hack", "Prodigy Origin"],
+      alternateName: [
+        "Play Origin | Math game Mod Hack",
+        "Prodigy Origin",
+        "ProdigyPXP",
+        "Prodigy X",
+        "ProdigyX",
+        "PXI",
+        "PXI Fusion",
+        "Prodigy PNP",
+        "ProdigyPNP"
+      ],
       url: "https://playorig.in",
       downloadUrl: "https://extension.playorig.in",
       applicationCategory: "BrowserApplication",
