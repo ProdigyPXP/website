@@ -33,10 +33,9 @@ export function InstallSteps() {
     <section id="install" className="py-24 lg:py-32 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <span className="sr-only">
-          How to hack Prodigy Math Game in 2026: install the Play Origin Prodigy hack extension
-          for Chrome, Edge, or Firefox; open the Prodigy game at play.prodigygame.com;
-          press Shift to launch the Prodigy mod menu; and use Prodigy cheats instantly.
-          This Prodigy game hack works in 2026 and is maintained by the ProdigyPXP team.
+          Getting started takes under a minute. Add Play Origin to Chrome, Edge, or Firefox,
+          then head to play.prodigygame.com and press Shift to open the mod menu.
+          The extension is maintained by the ProdigyPXP team and fully updated for 2026.
         </span>
         <SectionHeading
           eyebrow="Get Started"

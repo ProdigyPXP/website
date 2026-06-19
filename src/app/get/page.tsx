@@ -39,10 +39,8 @@ export default function GetPage() {
 
           <div className="relative z-10 max-w-2xl mx-auto px-4 sm:px-6 text-center">
             <span className="sr-only">
-              Download the Prodigy hack extension — Play Origin is available as a Prodigy Chrome extension
-              on the Chrome Web Store, a Prodigy hack extension on Firefox Add-ons, and a Prodigy mod
-              for Microsoft Edge Add-ons. Install the Prodigy math hack browser plugin in under a minute.
-              Formerly Prodigy Origin, also known as ProdigyPXP and Prodigy X loader.
+              Play Origin is listed on the Chrome Web Store, Microsoft Edge Add-ons, and Firefox Add-ons.
+              It was previously published as Prodigy Origin by the ProdigyPXP team — same extension, new name, still free.
             </span>
             <p className="text-[#c9a84c] text-xs font-semibold tracking-[0.3em] uppercase mb-6">
               ✦ Temporary Notice
