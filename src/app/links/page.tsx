@@ -4,9 +4,9 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Links — Play Origin | Prodigy Mod Extension",
+  title: "Links — Play Origin | Prodigy Hack Extension",
   description:
-    "All Play Origin short links — install the Prodigy Math Game mod extension for Chrome, Edge, or Firefox, join the community, and more.",
+    "All Play Origin short links in one place. Install the free Prodigy Math Game mod extension for Chrome, Edge, or Firefox, join the ProdigyPXP Discord, watch tutorials on YouTube, or browse the open-source code on GitHub.",
 };
 
 type LinkItem = {
@@ -119,6 +119,11 @@ export default function LinksPage() {
           />
 
           <div className="relative z-10 max-w-2xl mx-auto px-4 sm:px-6">
+            <span className="sr-only">
+              This page lists every official Play Origin short link — the free Prodigy Math Game mod extension
+              built by the ProdigyPXP team. Whether you need to install on Chrome, Edge, or Firefox,
+              join the Discord, or browse the source code, all links are here.
+            </span>
             <div className="text-center mb-12">
               <p className="text-[#c9a84c] text-xs font-semibold tracking-[0.3em] uppercase mb-5">
                 ✦ Short Links
