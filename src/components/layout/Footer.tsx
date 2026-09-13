@@ -87,7 +87,7 @@ export function Footer() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-[#1a1a1a] flex flex-col sm:flex-row justify-between gap-4">
-          <p className="text-xs text-[#666]">© 2026 ProdigyPXP · Free and open-source
+          <p className="text-xs text-[#666]">© 2026 ProdigyPXP · Free and open-source · 
           <a
               href="https://alexey-fedorov.com?utm_source=dripwriter&utm_medium=footer&utm_campaign=backlink"
               target="_blank"
