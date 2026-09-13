@@ -9,12 +9,12 @@ const steps = [
   {
     icon: Download,
     title: "Visit the store",
-    desc: "Get Play Origin from the Firefox Add-ons or Microsoft Edge Add-ons store."
+    desc: "Get Play Origin from the Chrome Web Store, Firefox Add-ons, or Microsoft Edge Add-ons."
   },
   {
     icon: Package,
     title: "Add to your browser",
-    desc: "Click Add to Firefox or Add to Edge and confirm the install prompt."
+    desc: "Click Add to Chrome, Add to Firefox, or Add to Edge and confirm the install prompt."
   },
   {
     icon: MousePointer,
@@ -76,7 +76,8 @@ export function InstallSteps() {
           <Button
             variant="primary"
             size="lg"
-            href="/get"
+            href="https://extension.playorig.in"
+            external
           >
             <Download size={18} />
             Get the Extension

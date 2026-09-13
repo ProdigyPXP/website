@@ -83,7 +83,8 @@ export function Navbar() {
           <Button
             variant="primary"
             size="sm"
-            href="/get"
+            href="https://extension.playorig.in"
+            external
           >
             Install Extension
           </Button>
@@ -116,7 +117,8 @@ export function Navbar() {
             <Button
               variant="primary"
               size="md"
-              href="/get"
+              href="https://extension.playorig.in"
+              external
               className="mt-2"
             >
               Install Extension
