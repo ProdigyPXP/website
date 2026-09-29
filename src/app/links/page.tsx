@@ -41,8 +41,8 @@ const LINKS: LinkGroup[] = [
         label: "Chrome Web Store",
         aliases: ["chrome.playorig.in"],
         href: "https://chrome.playorig.in",
-        destination: "playorig.in/get",
-        description: "Temporary redirect — Chrome listing coming soon",
+        destination: "chromewebstore.google.com",
+        description: "Play Origin on the Chrome Web Store",
         icon: <Globe size={18} className={iconClass} />,
       },
       {
