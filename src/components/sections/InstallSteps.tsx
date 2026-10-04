@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Download, Package, MousePointer, PlayCircle } from "lucide-react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { Button } from "@/components/ui/Button";
+import { InstallButton } from "@/components/ui/InstallButton";
 
 const steps = [
   {
@@ -73,15 +73,7 @@ export function InstallSteps() {
           ))}
         </div>
         <div className="flex justify-center mt-14">
-          <Button
-            variant="primary"
-            size="lg"
-            href="https://extension.playorig.in"
-            external
-          >
-            <Download size={18} />
-            Get the Extension
-          </Button>
+          <InstallButton variant="primary" size="lg" />
         </div>
       </div>
     </section>

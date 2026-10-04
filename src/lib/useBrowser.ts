@@ -16,7 +16,7 @@ function detect(ua: string): Browser {
   return "other";
 }
 
-const labels: Record<Browser, string> = {
+export const STORE_LABELS: Record<Browser, string> = {
   chrome: "Chrome Web Store",
   edge: "Edge Add-Ons",
   firefox: "Mozilla Add-Ons",
@@ -30,5 +30,5 @@ export function useBrowser(): BrowserInfo {
     setBrowser(detect(navigator.userAgent));
   }, []);
 
-  return { browser, storeLabel: labels[browser] };
+  return { browser, storeLabel: STORE_LABELS[browser] };
 }

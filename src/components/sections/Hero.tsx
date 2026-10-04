@@ -1,16 +1,14 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import { ArrowRight, Code2 } from "lucide-react";
+import { Code2 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { AnimatedText } from "@/components/ui/AnimatedText";
-import { BrowserIcon } from "@/components/ui/BrowserIcon";
+import { InstallButton } from "@/components/ui/InstallButton";
 import { VERSION } from "@/lib/VERSION";
-import { useBrowser } from "@/lib/useBrowser";
 
 export function Hero() {
   const reduce = useReducedMotion();
-  const { browser } = useBrowser();
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 pb-16">
@@ -71,16 +69,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Button
-            variant="primary"
-            size="lg"
-            href="https://extension.playorig.in"
-            external
-          >
-            <BrowserIcon browser={browser} size={18} />
-            Install Extension
-            <ArrowRight size={18} />
-          </Button>
+          <InstallButton variant="primary" size="lg" showArrow />
           <Button
             variant="outline"
             size="lg"

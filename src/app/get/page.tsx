@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
-import { BrowserIcon } from "@/components/ui/BrowserIcon";
+import { InstallButton } from "@/components/ui/InstallButton";
 
 export const metadata: Metadata = {
   title: "Install Play Origin — Free Prodigy Math Game Mod Extension",
@@ -48,36 +48,19 @@ export default function GetPage() {
               Pick your browser below.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
+            <div className="flex flex-col items-center gap-4">
+              <InstallButton
+                browser="chrome"
                 href="https://chromewebstore.google.com/detail/meckkcfdiildmoohhfkddapggojdhpgo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-[#c9a84c] text-black font-semibold rounded-md hover:bg-[#d4b65e] hover:shadow-[0_0_24px_rgba(201,168,76,0.4)] active:scale-[0.98] transition-all duration-200 text-base"
-              >
-                <BrowserIcon browser="chrome" size={20} />
-                Chrome
-              </a>
-
-              <a
+              />
+              <InstallButton
+                browser="edge"
                 href="https://microsoftedge.microsoft.com/addons/detail/prodigy-hacking-extension/ekoakjipfmjpmlkldiikhoigaflfkjej"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-[#c9a84c] text-black font-semibold rounded-md hover:bg-[#d4b65e] hover:shadow-[0_0_24px_rgba(201,168,76,0.4)] active:scale-[0.98] transition-all duration-200 text-base"
-              >
-                <BrowserIcon browser="edge" size={20} />
-                Microsoft Edge
-              </a>
-
-              <a
+              />
+              <InstallButton
+                browser="firefox"
                 href="https://addons.mozilla.org/en-US/firefox/addon/playorigin/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-[#c9a84c] text-black font-semibold rounded-md hover:bg-[#d4b65e] hover:shadow-[0_0_24px_rgba(201,168,76,0.4)] active:scale-[0.98] transition-all duration-200 text-base"
-              >
-                <BrowserIcon browser="firefox" size={20} />
-                Firefox
-              </a>
+              />
             </div>
           </div>
         </section>
