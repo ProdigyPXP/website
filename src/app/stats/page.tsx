@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "See how many Prodigy players run Play Origin each week. Live active user counts for the free Prodigy Math Game mod extension across Chrome, Edge, and Firefox — pulled from public store listings and updated hourly.",
 };
 
-export const revalidate = 3600;
+// Static export: store counts are fetched at build time; the deploy workflow rebuilds hourly.
 
 function formatNum(n: number | null, approximate?: boolean): string {
   if (n === null) return "—";

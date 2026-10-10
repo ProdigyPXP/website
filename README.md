@@ -1,6 +1,6 @@
 # Play Origin Website
 
-Marketing and landing site for **[Play Origin](https://prodigyorigin.com)** — a browser extension mod loader for online math games. This is a modern, statically-rendered single-page application built with Next.js 16, React 19, and Tailwind CSS v4.
+Marketing and landing site for **[Play Origin](https://playorig.in)** — a browser extension mod loader for online math games. This is a modern, statically-rendered single-page application built with Next.js 16, React 19, and Tailwind CSS v4.
 
 ## Overview
 
@@ -14,7 +14,7 @@ This repository contains the official website for Play Origin, showcasing featur
 - **Styling**: Tailwind CSS v4
 - **Animation**: Framer Motion
 - **Icons**: Lucide React
-- **Analytics**: Vercel Analytics & Speed Insights
+- **Hosting**: GitHub Pages (static export)
 - **Package Manager**: pnpm
 
 ## Getting Started
@@ -41,8 +41,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 # Build for production
 pnpm build
 
-# Start production server
-pnpm start
+# Static export is written to ./out
+
 ```
 
 ## Project Structure
@@ -76,7 +76,7 @@ Path alias: `@/*` resolves to `./src/*` (configured in `tsconfig.json`).
 - **Single-page landing site** with smooth scrolling sections
 - **Responsive design** optimized for mobile, tablet, and desktop
 - **Rich structured data** (JSON-LD) for search engines and social sharing
-- **Performance optimized** with Vercel Analytics and Speed Insights
+- **Performance optimized** static export with no third-party analytics
 - **Accessible** with semantic HTML and ARIA labels
 - **SEO-friendly** with dynamic metadata and sitemap
 
@@ -91,8 +91,8 @@ Refer to `.claude/architecture.md` for detailed architecture and SEO notes.
 
 ## Links
 
-- 🌐 **Website**: https://prodigyorigin.com
-- 📦 **Extension**: https://extension.prodigyorigin.com
+- 🌐 **Website**: https://playorig.in
+- 📦 **Extension**: https://extension.playorig.in
 - 🎮 **Play Prodigy**: https://play.prodigygame.com
 - 📂 **Source Code**: https://github.com/ProdigyPXP/ProdigyOrigin
 

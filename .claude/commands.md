@@ -5,8 +5,7 @@ Use **pnpm** (lockfile is `pnpm-lock.yaml`).
 ```bash
 pnpm install        # install deps
 pnpm dev            # next dev — http://localhost:3000
-pnpm build          # next build (production)
-pnpm start          # next start — serve the production build
+pnpm build          # next build — static export to ./out (GitHub Pages)
 ```
 
 No lint, test, or typecheck scripts are defined. To typecheck manually:

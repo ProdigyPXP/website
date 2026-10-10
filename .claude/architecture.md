@@ -8,7 +8,6 @@ Marketing site for **Play Origin** (formerly Prodigy Origin), a browser-extensio
 - React **19.2** + TypeScript (strict)
 - Tailwind CSS **v4** (via `@tailwindcss/postcss`)
 - `framer-motion`, `lucide-react`, `clsx`, `tailwind-merge`
-- `@vercel/analytics`, `@vercel/speed-insights`
 - Package manager: **pnpm** (`pnpm-workspace.yaml` present, but this is the only package)
 
 ## Directory map
@@ -41,6 +40,6 @@ Sitemap and robots are static files in `public/` — update `sitemap.xml`'s `las
 
 ## External links referenced in content
 
-- Extension store: `https://extension.prodigyorigin.com`
+- Extension store: `https://extension.playorig.in`
 - Source: `https://github.com/ProdigyPXP/ProdigyOrigin`
 - Live game: `https://play.prodigygame.com`
