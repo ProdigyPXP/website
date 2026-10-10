@@ -1,6 +1,6 @@
 // Cloudflare Worker "play-redirects": subdomain redirects for playorig.in and
 // everything on prodigyorigin.com (301 -> playorig.in). Replaces the old Vercel
-// `origin-redirect` project. Apex/www of playorig.in pass through to GitHub Pages.
+// origin-redirect project. Apex/www of playorig.in pass through to GitHub Pages.
 
 const CHROME = "https://chromewebstore.google.com/detail/meckkcfdiildmoohhfkddapggojdhpgo";
 const EDGE =
@@ -41,7 +41,7 @@ export default {
       return fetch(request); // GitHub Pages origin
     }
     if (host === "prodigyorigin.com" || host === "www.prodigyorigin.com") {
-      return Response.redirect(`https://playorig.in${url.pathname}${url.search}`, 301);
+      return Response.redirect("https://playorig.in" + url.pathname + url.search, 301);
     }
     const m = host.match(/^([^.]+)\.(playorig\.in|prodigyorigin\.com)$/);
     if (m) {
